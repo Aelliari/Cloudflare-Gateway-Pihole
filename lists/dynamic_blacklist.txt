@@ -4,3 +4,10 @@ jidroumsaghetu.xyz
 hautoust.com
 agamagcargoan.com
 patchouptid.xyz
+ocsp.apple.com
+ocsp2.apple.com
+valid.apple.com
+crl.apple.com
+certs.apple.com
+appattest.apple.com
+vpp.itunes.apple.com
