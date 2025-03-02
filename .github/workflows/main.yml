@@ -18,7 +18,6 @@ jobs:
       WHITELIST_URLS: ${{ vars.WHITELIST_URLS }}
       DYNAMIC_BLACKLIST: ${{ vars.DYNAMIC_BLACKLIST }}
       DYNAMIC_WHITELIST: ${{ vars.DYNAMIC_WHITELIST }}
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@main
@@ -41,3 +40,5 @@ jobs:
       
       - name: Cloudflare Gateway Zero Trust 
         run: python -m src run
+      - name: Cloudflare Gateway Zero Trust 
+        run: python -m src leave
