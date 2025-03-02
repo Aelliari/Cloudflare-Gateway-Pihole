@@ -40,5 +40,5 @@ jobs:
       
       - name: Cloudflare Gateway Zero Trust 
         run: python -m src run
-      - name: Cloudflare Gateway Zero Trust 
-        run: python -m src leave
+   #   - name: Cloudflare Gateway Zero Trust 
+   #     run: python -m src leave
